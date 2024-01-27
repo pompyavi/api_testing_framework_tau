@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "fname": {
+      "type": "string"
+    },
+    "lname": {
+      "type": "string"
+    },
+    "person_id": {
+      "type": "integer"
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "fname",
+    "lname",
+    "person_id",
+    "timestamp"
+  ]
+}
